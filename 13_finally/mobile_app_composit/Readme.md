@@ -23,7 +23,7 @@ ___
         гипотезу с помощью статистического теста.
 
 ### Результаты исследования
-- [Блокнот с исследованием приложения](mobile_app_composit_v3.ipynb)
+- [Блокнот с исследованием приложения](https://nbviewer.org/github/ArtemBonda/ynd_analyses/blob/master/13_finally/mobile_app_composit/mobile_app_composit_v3.ipynb)
 - [Презентация анализа приложения "Ненужные вещи"](https://disk.yandex.ru/i/7Q386TElLn6_Kg)
 - [Дашборд](https://public.tableau.com/app/profile/artem4095/viz/eventsusersmobileapp/Dashboard1)
 
