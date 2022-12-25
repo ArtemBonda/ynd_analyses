@@ -18,7 +18,7 @@ ___
 - Посчитайте среднее количество обзоров от пользователей, которые поставили больше 50 оценок.
 
 ### Результаты исследования
-- [Блокнот с изучением базы данных](book_store_v3.ipynb)
+- [Блокнот с изучением базы данных](https://nbviewer.org/github/ArtemBonda/ynd_analyses/blob/master/13_finally/book_store_sql/book_store_v3.ipynb)
 
 ### Используемые библиотеки
 *pandas*, *sqlalchemy*,  *missingno*, *sys*, *plotly*
