@@ -176,6 +176,7 @@ About
 .idea
 */datasets
 */datasets/
+*/**/*datasets
 */.ipynb*
 
 CA.pem
