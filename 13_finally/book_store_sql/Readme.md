@@ -20,5 +20,9 @@ ___
 ### Результаты исследования
 - [Блокнот с изучением базы данных](https://nbviewer.org/github/ArtemBonda/ynd_analyses/blob/master/13_finally/book_store_sql/book_store_v3.ipynb)
 
+### Общие выводы
+
+Был проведен анализ базы данных книжного магазина. Имеющиеся данные в ней устарели, по ним невозможно будет составить предложения для сегодняшнего времени. 
+
 ### Используемые библиотеки
-*pandas*, *sqlalchemy*,  *missingno*, *sys*, *plotly*
+*sys*, *os*, *dotenv*, *pandas*, *sqlalchemy*,  *missingno*
