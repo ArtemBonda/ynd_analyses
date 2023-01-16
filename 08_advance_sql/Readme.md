@@ -13,7 +13,7 @@
 ![Таблица](Image.png)
 
 ## Используемые библиотеки
-*DBeaver*, *SQL*, *PostgreSQL*, *numpy*
+*DBeaver*, *SQL*, *PostgreSQL*
 
 **Полезные ссылки**
  - [Курс MySQL](https://stepik.org/course/63054/syllabus)
