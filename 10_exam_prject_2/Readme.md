@@ -18,7 +18,7 @@ ___
 
 
 ### Используемые библиотеки
-*datetime*, *pandas*, *numpy*,, *scipy*, *seaborn*, *matplotlib*, *plotly*
+*datetime*, *pandas*, *numpy*, *scipy*, *seaborn*, *matplotlib*, *plotly*
 
 ### Что почитать:
 
