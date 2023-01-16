@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import sys
+import os
+from dotenv import load_dotenv, find_dotenv
 import getopt
 from sqlalchemy import create_engine
 import pandas as pd
@@ -9,14 +11,17 @@ import pandas as pd
 start_dt = '2019-09-24 18:00:00'
 end_dt = '2019-09-24 19:00:00'
 
-db_config = {'user': 'praktikum_student',
-             'pwd': 'Sdf4$2;d-d30pp',
-             'host': 'rc1b-wcoijxj3yxfsf3fs.mdb.yandexcloud.net',
-             'port': 6432,
-             'db': 'data-analyst-zen-project-db'}
+load_dotenv(find_dotenv())
 
-conn_str = (f"postgresql://{db_config['user']}:{db_config['pwd']}@"
-            f"{db_config['host']}:{db_config['port']}/{db_config['db']}")
+# Конфигурация БД
+user = os.getenv('USER')
+pwd = os.getenv('PWD')
+host = os.getenv('HOST')
+port = os.getenv('PORT')
+db = os.getenv('DB')
+
+conn_str = ("postgresql://{}:{}@{}:{}/{}"\
+    .format(user, pwd, host, port, db))
 
 
 def get_connection():
@@ -44,7 +49,7 @@ if __name__ == '__main__':
 
     try:
         conn = get_connection()
-        print(f'Connection to the {db_config["host"]} for user {db_config["user"]} created successfully')
+        print(f'Connection to the {host} for user {user} created successfully')
     except Exception as ex:
         print('Error: ', ex)
         sys.exit(2)
